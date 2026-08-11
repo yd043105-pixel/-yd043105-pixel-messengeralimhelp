@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="메신저 요약 알리미 업데이트를 위해 설치 폴더 분석 ZIP 파일을 만드는 방법">
+    <title>메신저 요약 알리미 · 업데이트 지원 안내</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#guide">본문으로 바로가기</a>
+
+    <header class="site-header">
+      <div class="page-width header-inner">
+        <a class="brand" href="#top" aria-label="메신저 요약 알리미 지원 안내 처음으로">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" role="img">
+              <path d="M4.5 9.5h8l2.3 2.7h12.7v13.3H4.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              <path d="M4.5 9.5V7.2h8.2l2.1 2.3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              <path d="M10.4 19.3h10.8M10.4 22.8h6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span>
+            <strong>메신저 요약 알리미</strong>
+            <small>업데이트 지원 안내</small>
+          </span>
+        </a>
+        <a class="header-link" href="#send">ZIP 보내는 곳 <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero page-width" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> UPDATE SUPPORT / WINDOWS</p>
+          <h1 id="page-title">메신저 요약 알리미<br><em>업데이트를 위한 파일 보내기</em></h1>
+          <p class="hero-lede">메신저 설치 폴더를 찾은 다음, 폴더 분석 ZIP 파일을 만들어 보내주세요. 아래 순서대로 천천히 따라 하면 됩니다.</p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#guide">순서대로 시작하기 <span aria-hidden="true">↓</span></a>
+            <span class="hero-note">스크린샷 7장 · 약 5단계</span>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="이번 안내에서 준비할 것">
+          <div class="hero-panel-top">
+            <span class="panel-kicker">READY CHECK</span>
+            <span class="status-pill"><span aria-hidden="true">●</span> 안내 준비 완료</span>
+          </div>
+          <div class="hero-panel-body">
+            <span class="panel-step">00 / 준비물</span>
+            <h2>찾아야 하는 것은<br><strong>실행 파일이 들어 있는 폴더</strong>입니다.</h2>
+            <div class="hero-path">
+              <span class="path-icon" aria-hidden="true">⌁</span>
+              <code>C:\Program Files (x86)\CoolMessenger Gentoo</code>
+            </div>
+            <p>실행 파일명 자체가 아니라, 그 파일을 담고 있는 폴더 주소를 입력합니다.</p>
+          </div>
+          <div class="hero-panel-bottom">
+            <span>최종 결과물</span>
+            <strong>문제 보고 파일 .zip</strong>
+          </div>
+        </div>
+      </section>
+
+      <nav class="progress-nav page-width" aria-label="안내 순서">
+        <a class="progress-item" href="#step-1"><span>01</span><strong>속성 열기</strong></a>
+        <a class="progress-item" href="#step-2"><span>02</span><strong>폴더 주소 확인</strong></a>
+        <a class="progress-item" href="#step-3"><span>03</span><strong>설정 열기</strong></a>
+        <a class="progress-item" href="#step-4"><span>04</span><strong>폴더 분석</strong></a>
+        <a class="progress-item" href="#step-5"><span>05</span><strong>ZIP 보내기</strong></a>
+      </nav>
+
+      <section class="guide page-width" id="guide" aria-labelledby="guide-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">FOLLOW THE PATH / 01—05</p>
+            <h2 id="guide-title">설치 폴더를 찾고<br>분석 파일을 만들어주세요</h2>
+          </div>
+          <p class="section-intro">각 단계의 화면을 클릭하면 크게 볼 수 있습니다. 버튼 이름은 화면에 보이는 그대로 적었습니다.</p>
+        </div>
+
+        <div class="guide-timeline">
+          <article class="step-card" id="step-1" data-step="01">
+            <div class="step-marker" aria-hidden="true">
+              <span>01</span>
+            </div>
+            <div class="step-copy">
+              <p class="step-kicker">메신저 바로가기</p>
+              <h3>바탕화면에서 <span>속성</span>을 열어주세요</h3>
+              <p>메신저 프로그램 바로가기를 마우스 오른쪽 버튼으로 클릭한 뒤, 메뉴 아래쪽의 <strong>속성</strong>을 선택합니다.</p>
+              <div class="action-line"><span class="action-icon" aria-hidden="true">↗</span> 우클릭 <span aria-hidden="true">→</span> 속성</div>
+            </div>
+            <figure class="shot">
+              <button class="shot-button" type="button" data-lightbox aria-label="1단계 스크린샷 크게 보기">
+                <img src="assets/step-01-context.png" alt="메신저 바로가기의 오른쪽 클릭 메뉴에서 속성을 선택하는 화면">
+                <span class="zoom-hint" aria-hidden="true">크게 보기 <span>↗</span></span>
+              </button>
+              <figcaption><span>FIG. 01</span> 바로가기 메뉴에서 속성 선택</figcaption>
+            </figure>
+          </article>
+
+          <article class="step-card" id="step-2" data-step="02">
+            <div class="step-marker" aria-hidden="true">
+              <span>02</span>
+            </div>
+            <div class="step-copy">
+              <p class="step-kicker">속성 / 바로 가기</p>
+              <h3>실행 파일이 있는<br><span>폴더 주소</span>를 메모하세요</h3>
+              <p><strong>시작 위치(S)</strong>에 표시된 주소를 메모합니다. 이 항목이 보이지 않으면 <strong>대상(T)</strong>에서 마지막 실행 파일명만 뺀 주소를 사용하면 됩니다.</p>
+              <div class="path-label">
+                <span>지금 확인할 것</span>
+                <code>C:\Program Files (x86)\CoolMessenger Gentoo</code>
+              </div>
+              <p class="micro-note">※ <code>CoolMessenger.exe</code>까지 입력하지 않습니다.</p>
+            </div>
+            <figure class="shot">
+              <button class="shot-button" type="button" data-lightbox aria-label="2단계 스크린샷 크게 보기">
+                <img src="assets/step-02-properties.png" alt="메신저 속성 창의 대상과 시작 위치에 설치 경로가 표시된 화면">
+                <span class="zoom-hint" aria-hidden="true">크게 보기 <span>↗</span></span>
+              </button>
+              <figcaption><span>FIG. 02</span> 시작 위치에 표시된 폴더 주소</figcaption>
+            </figure>
+          </article>
+
+          <article class="step-card" id="step-3" data-step="03">
+            <div class="step-marker" aria-hidden="true">
+              <span>03</span>
+            </div>
+            <div class="step-copy">
+              <p class="step-kicker">메신저 요약 알리미</p>
+              <h3>프로그램에서<br><span>설정</span>을 열어주세요</h3>
+              <p>메신저 요약 알리미를 실행합니다. 오른쪽 위의 메뉴를 열고 <strong>설정...</strong>을 선택한 다음, 설정 창에서 <strong>메신저 다시 설정...</strong>을 누릅니다.</p>
+              <div class="action-line"><span class="action-icon" aria-hidden="true">☷</span> 메뉴 <span aria-hidden="true">→</span> 설정...</div>
+            </div>
+            <div class="shot-grid">
+              <figure class="shot">
+                <button class="shot-button" type="button" data-lightbox aria-label="3단계 메뉴 스크린샷 크게 보기">
+                  <img src="assets/step-03-menu.png" alt="메신저 요약 알리미 메뉴에서 설정 항목을 선택하는 화면">
+                  <span class="zoom-hint" aria-hidden="true">크게 보기 <span>↗</span></span>
+                </button>
+                <figcaption><span>FIG. 03</span> 메뉴에서 설정 열기</figcaption>
+              </figure>
+              <figure class="shot">
+                <button class="shot-button" type="button" data-lightbox aria-label="4단계 설정 스크린샷 크게 보기">
+                  <img src="assets/step-04-settings.png" alt="메신저 요약 알리미 설정 창에서 메신저 다시 설정 버튼이 보이는 화면">
+                  <span class="zoom-hint" aria-hidden="true">크게 보기 <span>↗</span></span>
+                </button>
+                <figcaption><span>FIG. 04</span> 메신저 다시 설정</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="step-card" id="step-4" data-step="04">
+            <div class="step-marker" aria-hidden="true">
+              <span>04</span>
+            </div>
+            <div class="step-copy">
+              <p class="step-kicker">처음 설정</p>
+              <h3>메신저를 고르고<br><span>설치 폴더</span>를 입력하세요</h3>
+              <p>사용 중인 메신저를 선택하고, 2단계에서 메모한 폴더 주소를 <strong>메신저 설치 폴더</strong> 칸에 입력합니다. 입력 후 <strong>이 폴더 분석하기</strong>를 누릅니다.</p>
+              <div class="path-label path-label-accent">
+                <span>입력할 폴더</span>
+                <code>C:\Program Files (x86)\CoolMessenger Gentoo</code>
+              </div>
+              <p class="micro-note">실행 파일이 아니라 실행 파일이 들어 있는 폴더를 입력합니다.</p>
+            </div>
+            <figure class="shot">
+              <button class="shot-button" type="button" data-lightbox aria-label="4단계 설치 폴더 입력 스크린샷 크게 보기">
+                <img src="assets/step-05-folder.png" alt="처음 설정 창에서 메신저 종류와 설치 폴더를 입력하고 이 폴더 분석하기를 누르는 화면">
+                <span class="zoom-hint" aria-hidden="true">크게 보기 <span>↗</span></span>
+              </button>
+              <figcaption><span>FIG. 05</span> 설치 폴더를 입력하고 분석 시작</figcaption>
+            </figure>
+          </article>
+
+          <article class="step-card" id="step-5" data-step="05">
+            <div class="step-marker" aria-hidden="true">
+              <span>05</span>
+            </div>
+            <div class="step-copy">
+              <p class="step-kicker">문제 보고 파일</p>
+              <h3>내용을 확인하고<br><span>ZIP 파일을 만들어주세요</span></h3>
+              <p>분석되는 내용을 읽고 동의 체크를 합니다. 그 다음 <strong>파일 만들기</strong>를 누르고, 저장 창에서 ZIP 파일을 저장합니다.</p>
+              <div class="mini-sequence" aria-label="마지막 작업 순서">
+                <span>내용 확인</span><i aria-hidden="true">→</i><span>동의 체크</span><i aria-hidden="true">→</i><strong>파일 만들기</strong>
+              </div>
+            </div>
+            <div class="shot-grid">
+              <figure class="shot">
+                <button class="shot-button" type="button" data-lightbox aria-label="5단계 동의 화면 스크린샷 크게 보기">
+                  <img src="assets/step-06-consent.png" alt="문제 보고 파일 만들기 동의 화면에서 포함 정보와 동의 체크가 보이는 화면">
+                  <span class="zoom-hint" aria-hidden="true">크게 보기 <span>↗</span></span>
+                </button>
+                <figcaption><span>FIG. 06</span> 내용을 확인하고 동의</figcaption>
+              </figure>
+              <figure class="shot">
+                <button class="shot-button" type="button" data-lightbox aria-label="5단계 저장 화면 스크린샷 크게 보기">
+                  <img src="assets/step-07-save.png" alt="문제 보고 파일 저장 창에서 ZIP 파일 이름과 저장 버튼이 보이는 화면">
+                  <span class="zoom-hint" aria-hidden="true">크게 보기 <span>↗</span></span>
+                </button>
+                <figcaption><span>FIG. 07</span> ZIP 파일 저장</figcaption>
+              </figure>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="privacy-section page-width" aria-labelledby="privacy-title">
+        <div class="privacy-card">
+          <div class="privacy-heading">
+            <p class="section-label">WHAT'S INSIDE / CHECK BEFORE SENDING</p>
+            <h2 id="privacy-title">ZIP 파일에 담기는 내용을<br>먼저 확인해주세요</h2>
+            <p>이 파일은 메신저 지원을 추가하고 오류를 확인하기 위한 자료입니다. 메시지 본문은 포함하지 않습니다.</p>
+          </div>
+          <div class="privacy-lists">
+            <div class="privacy-list is-included">
+              <h3><span aria-hidden="true">+</span> 담기는 것</h3>
+              <ul>
+                <li>메신저 설치 폴더의 프로그램 파일·DLL·설정 파일</li>
+                <li>설치 폴더의 파일 목록(이름, 크기)</li>
+                <li>데이터베이스 구조(테이블 이름, 건수)</li>
+                <li>프로그램 설정과 오류 기록</li>
+              </ul>
+            </div>
+            <div class="privacy-list is-excluded">
+              <h3><span aria-hidden="true">—</span> 담기지 않는 것</h3>
+              <ul>
+                <li>쪽지·메시지 본문</li>
+                <li>사람 이름·아이디·부서</li>
+                <li>첨부파일과 첨부파일명</li>
+                <li>날짜·시간 값은 익명화된 형식으로 변경</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trouble-section page-width" aria-labelledby="trouble-title">
+        <div class="trouble-card">
+          <div class="trouble-icon" aria-hidden="true">?</div>
+          <div>
+            <p class="section-label">PATH CHECK / IF YOU GET STUCK</p>
+            <h2 id="trouble-title">설치 폴더를 찾을 수 없나요?</h2>
+            <p>속성 창의 <strong>파일 위치 열기(F)</strong>를 눌러 폴더를 직접 확인하거나, <strong>시작 위치(S)</strong>에 적힌 주소를 다시 확인해주세요. 입력할 때는 <strong>실행 파일 자체가 아니라 실행 파일이 들어 있는 폴더</strong>를 선택합니다.</p>
+          </div>
+          <a class="text-action" href="#step-2">2단계 다시 보기 <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="send-section page-width" id="send" aria-labelledby="send-title">
+        <div class="send-card">
+          <div class="send-topline">
+            <span class="send-badge"><span aria-hidden="true">✓</span> 마지막 단계</span>
+            <span class="send-file">문제 보고 파일 .zip</span>
+          </div>
+          <div class="send-content">
+            <div>
+              <p class="section-label">READY TO SEND / THANK YOU</p>
+              <h2 id="send-title">저장한 ZIP 파일을<br>보내주세요</h2>
+              <p>아래 주소로 ZIP 파일을 첨부해 보내주시면, 메신저 지원을 추가하고 바로 업데이트하겠습니다.</p>
+            </div>
+            <div class="send-action">
+              <span class="send-label">받는 주소</span>
+              <div class="email-row">
+                <a class="email-link" data-email="poo1355@h.jne.go.kr" href="mailto:poo1355@h.jne.go.kr">poo1355@h.jne.go.kr</a>
+                <button class="copy-button" type="button" data-copy-email>주소 복사</button>
+              </div>
+              <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-width footer-inner">
+        <span>메신저 요약 알리미 · 업데이트 지원 안내</span>
+        <a href="#top">처음으로 <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+
+    <div class="image-modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-backdrop" data-modal-close></div>
+      <div class="modal-panel">
+        <div class="modal-toolbar">
+          <p id="modal-title">스크린샷 크게 보기</p>
+          <button class="modal-close" type="button" data-modal-close aria-label="스크린샷 닫기">닫기 <span aria-hidden="true">×</span></button>
+        </div>
+        <div class="modal-image-wrap">
+          <img class="modal-image" src="" alt="">
+        </div>
+        <p class="modal-caption"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
